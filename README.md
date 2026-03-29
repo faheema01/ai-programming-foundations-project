@@ -8,11 +8,12 @@ Matplotlib/Seaborn visualizations to uncover pricing patterns across New York Ci
 
 What I Built:
 
-Reusable data cleaning functions (missing values, duplicates, outliers)
-EDA functions (summary statistics, grouped analysis, correlation matrix, filtered views)
-Three visualizations: violin plot, grouped bar chart, and scatter plot with trend line
+Two reusable data cleaning functions:
+  - "remove_duplicates()" — detects and removes repeated rows
+  - "normalize_column_names()" — standardises all column names to lowercase with underscores
+- EDA functions (summary statistics, grouped analysis, correlation matrix, filtered views)
+- Three visualizations: violin plot, grouped bar chart, and scatter plot with trend line
 
-Dataset:
 
 Name: NYC Airbnb Open Data 2019
 Link: https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data
